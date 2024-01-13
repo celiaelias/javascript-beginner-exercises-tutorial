@@ -1,4 +1,4 @@
-const VERSION1 = '0.1';
+//const VERSION = '0.1';
 
 const VERSION = '0.9';
 

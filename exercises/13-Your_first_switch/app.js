@@ -14,7 +14,7 @@ function getColor(selection)
 	}
 }
 
-let colorname = prompt('What color do you want?').trim().toLowerCase();
+let colorname = prompt('What color do you want?').trim();
 let isAvailable = getColor(colorname);
 
 if(isAvailable)

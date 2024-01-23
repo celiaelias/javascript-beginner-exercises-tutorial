@@ -1,17 +1,17 @@
 
 function sing() {
-    let asd = "";
+    let lyrics = "";
     for (let i = 0; i < 4; i++) {
-        asd += "let it be, ";
+        lyrics += "let it be, ";
         
     }
-    asd += ("there will be an answer, ");
+    lyrics += ("there will be an answer, ");
     for (let i = 0; i < 5; i++) {
-        asd += "let it be, ";
+        lyrics += "let it be, ";
         
     }
-    asd += ("whisper words of wisdom, let it be");
-    return asd;
+    lyrics += ("whisper words of wisdom, let it be");
+    return lyrics;
     
 }
 //Your code above ^^^

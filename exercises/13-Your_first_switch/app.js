@@ -15,7 +15,7 @@ function getColor(selection)
 }
 
 let colorname = prompt('What color do you want?').trim();
-let isAvailable = getColor(colorname);
+let isAvailable = getColor(colorname.toLowerCase());
 
 if(isAvailable)
 	console.log('Good news! That color is available');
